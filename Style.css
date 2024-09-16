@@ -1,0 +1,27 @@
+*{
+    background-color: blueviolet;
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: url(Fondo_Home.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #ff8a2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
